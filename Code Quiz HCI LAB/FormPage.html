@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <nav>
+                <a href="index.html"><img src="./assets/logo.png"></a>
+                <div class="menus">
+                <ul>
+                        <li> <a href="./index.html">Home</a></li>
+                        <li> <a href="./FormPage.html">Form</a></li>
+                        <li> <a href="./About.html">About</a></li>
+                </ul>
+                </div>
+            </nav>
+            <div class="form-header">
+                <h1>Registration Form</h1>
+            </div>
+            <div class="form-content">
+                <form action="" method="post">
+                    <ul>
+                        <li><input type="text" name="fn" id="fn" placeholder="First Name" required></li>
+                        <li><input type="text" name="ln" id="ln" placeholder="Last Name" required></li>
+                        <li class="gap"></li>
+                        <li><div class="gender"><label for="">Gender</label>
+                        <input type="radio" name="input-gender" id="input-male" required> Male
+                        <input type="radio" name="input-gender" id="input-female" required> Female</div></li>
+                        <li><input type="email" name="email" id="email" placeholder="Enter Email" required></li>
+                        <li><div><select name="select_program" id="select_program" class="select-program" required>
+                            <option value="">Choose Study Program</option>
+                            <option value="accounting">Accounting</option>
+                            <option value="business-management">Business Management</option>
+                            <option value="graphic-design">Graphic Design</option>
+                            <option value="industrial-engineering">Industrial Engineering</option>
+                            <option value="information-system">Information System</option>
+                            <option value="informatic-engineering">Informatic Engineering</option>
+                        </select></li>
+                        <textarea name="input-address" id="input-address" cols="30" rows="10" placeholder="Enter Address" class="address" required></textarea>
+                        <div class="checkbox">
+                            <input type="checkbox" name="check-tnc" id="check-tnc" required> I have read and agree to to terms and condition
+                        </div>
+                        <li><button type="submit">Submit</button></li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+    </header>
+            
+    <footer>
+        
+       &copy; Sunbic May 2022
+            
+    </footer>
+
+
+</body>
+</html> 
